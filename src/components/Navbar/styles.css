@@ -1,0 +1,29 @@
+
+.yellow{
+font-size: 35px;
+color:rgb(148, 16, 43);
+margin-right: 10px;
+}
+
+.purple{
+font-size: 80px;
+color: purple
+}
+
+.logo_main {
+    width: 100px;
+    height: 50px;
+    padding: 5px 5px 3px 0px;
+    margin:5px 5px 3px 0px; 
+}
+.triangle {
+    font-size: 35px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 50px;
+    color:crimson;
+}
+
+.colorNav {
+      font-size: 18px;
+}
