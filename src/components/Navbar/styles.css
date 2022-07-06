@@ -33,7 +33,10 @@ color: purple
 }
 
 .colorNav {
+      background-color: '#fcba03';
+      color:blue;
       font-size: 17px;
       font-family: 'Arima', cursive;     
+   
      
  }

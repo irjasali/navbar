@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import ItemsListCart from '../ItemsListCart/ItemsListCart';
 import { ImHome } from "react-icons/im";
@@ -12,13 +13,13 @@ import './styles.css';
 const Navbarcomp = () => {
     return (
         <>
-            <Navbar variant="dark" bg="primary" expand="lg"  sticky="top" className='colorNav'>
+            <Navbar variant="light" bg="warning" expand="lg"  sticky="top" className='colorNav'  >
             <img src="/img/logohamacas.png"
                      width="100"
                      height="60"
                      alt="React Bootstrap logo"
                      className="d-inline-block align-top logo_main"
-            />
+                     />
              <Container >
                     <Navbar.Brand href="#home"  > Southern Hammocks </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
