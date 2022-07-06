@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Parisienne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Mingzat&family=Parisienne&display=swap');
+
 
 .yellow{
 font-size: 35px;
@@ -9,13 +9,14 @@ margin-left: 5px;
 }
 
 .shoppingCar {
-    color: cornflowerblue;
-    font-size: 35px;
+    color: rgb(10, 231, 168);
+    font-size: 10px;
+    margin-left: 15px;
 }
 
 .purple{
 font-size: 80px;
-color: purple
+color: purple !important;
 }
 
 .logo_main {
@@ -29,11 +30,15 @@ color: purple
     color: white;
     margin-right: 5px;
     margin-left: 50px;
+    padding: 5px 5px;
     color:crimson;
+    border-radius: 10px;
+    
 }
 
 .colorNav {
-      font-size: 17px;
-      font-family: 'Arima', cursive;     
-     
+      font-size: 21px;
+      font-family: 'Mingzat', sans-serif;
+      font-weight: 700;      
+      color: #2699FB !important;
  }
